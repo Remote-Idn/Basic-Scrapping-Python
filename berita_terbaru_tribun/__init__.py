@@ -9,5 +9,5 @@ def ekstraksi_data():
 def tampilkan_data(result):
     print("Berita Terbaru Tribun Lampung")
     print(f"Judul Berita: {result["judul"]}")
-    print(f"Tanggal Terbit: {result[tanggal]}")
+    print(f"Tanggal Terbit: {result["tanggal"]}")
     print(f"Waktu terbit: {result["waktu"]}")
