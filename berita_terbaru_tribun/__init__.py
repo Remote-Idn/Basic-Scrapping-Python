@@ -1,8 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-
-
 def ekstraksi_data():
     url = f'https://www.cnnindonesia.com'
     ge = requests.get(url).text
@@ -82,8 +80,3 @@ def tampilkan_data(result):
         print(f'Judul: {result["judul6"]}')
         print(f'Kategori: {result["kategori6"]}')
         print(f'Link Berita: {result["link6"]}')
-
-
-
-
-
