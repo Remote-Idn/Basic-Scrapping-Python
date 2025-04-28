@@ -61,7 +61,7 @@ def ekstraksi_data():
 def tampilkan_data(result):
         if result is None:
             return 'pass'
-        print('Berita Terpopuler CNN Indonesia')
+        print('6 Berita Terpopuler CNN Indonesia')
         print(f'Judul: {result["judul1"]}')
         print(f'Kategori: {result["kategori1"]}')
         print(f'Link Berita: {result["link1"]}')

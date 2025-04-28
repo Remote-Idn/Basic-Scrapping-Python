@@ -1,9 +1,9 @@
 '''
-Aplikasi Feed Berita
+Aplikasi Feed Berita CNN Indonesia
 '''
 import berita_terbaru_cnn
 
 if __name__ == "__main__":
-    print("Aplikasi Utama")
+    print("Berita CNN Indonesia")
     result = berita_terbaru_cnn.ekstraksi_data()
     berita_terbaru_cnn.tampilkan_data(result)
